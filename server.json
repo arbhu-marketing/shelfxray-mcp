@@ -1,0 +1,19 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "in.shelfxray/shelf-data",
+  "title": "ShelfXray quick-commerce shelf data",
+  "description": "Free, no-login quick-commerce shelf data (Blinkit, Zepto, Instamart). Cached snapshot, CC BY 4.0.",
+  "version": "0.1.0",
+  "websiteUrl": "https://shelfxray.in/mcp",
+  "repository": {
+    "url": "https://github.com/arbhu-marketing/shelfxray-mcp",
+    "source": "github",
+    "id": "1465781365"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.shelfxray.in/mcp"
+    }
+  ]
+}
