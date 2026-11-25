@@ -1,5 +1,7 @@
 # ShelfXray MCP
 
+[![ShelfXray MCP connector on Glama](https://glama.ai/mcp/connectors/in.shelfxray/shelf-data/badges/score.svg)](https://glama.ai/mcp/connectors/in.shelfxray/shelf-data)
+
 A free, no-login [Model Context Protocol](https://modelcontextprotocol.io) server for public quick-commerce shelf data. It answers, from a cached snapshot, how brands appeared on Blinkit, Zepto and Swiggy Instamart in Bengaluru and Delhi NCR: search rank, store coverage, and who owned the sponsored slots.
 
 There is no account and no API key. The transport is Streamable HTTP. The polite limit is 60 requests a minute per IP.
@@ -7,6 +9,8 @@ There is no account and no API key. The transport is Streamable HTTP. The polite
 **Server URL:** `https://mcp.shelfxray.in/mcp`
 
 Install page: [shelfxray.in/mcp](https://shelfxray.in/mcp)
+
+Agent install file: [llms-install.md](llms-install.md)
 
 Official MCP Registry: [`in.shelfxray/shelf-data`](https://registry.modelcontextprotocol.io/v0.1/servers?search=in.shelfxray)
 
